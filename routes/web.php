@@ -15,3 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/sample1', 'TestController@sample1');
+Route::get('/sample2', 'TestController@sample2');
+Route::get('/sample3', 'TestController@sample3');
